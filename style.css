@@ -1,0 +1,28 @@
+body {
+ /* font-family: Arial, sans-serif; */
+ text-align: center;
+ background-color: #eef2ff;
+}
+
+.board {
+ display: grid;
+ grid-template-columns: repeat(3, 80px);
+ grid-gap: 5px;
+ padding:30px 20px;
+ max-width: 300px;
+}
+
+.cell {
+ font-family: "Mooli";
+ width: 80px;
+ height: 80px;
+ border: 2px solid #333;
+ font-size: 2em;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ cursor: pointer;
+}
+.cell:hover{
+ background-color: #b7b2b2;
+}
